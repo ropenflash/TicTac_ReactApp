@@ -10,7 +10,7 @@ class Welcome extends React.PureComponent {
 }
 function Square(props){
         return(
-            <button className='btn btn-light' onClick={props.onClick}>
+            <button className='btn btn-light square' onClick={props.onClick}>
                 {props.value}
 
             </button>
